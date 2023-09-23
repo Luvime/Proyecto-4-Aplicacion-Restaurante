@@ -1,8 +1,4 @@
-# React + Vite
+<h1>PROYECTO 4 RESTAURAN APP</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>Durante este proyecto utilizamos "React" y como generador de base para la aplicacion "Vite". Utilizamos componentes bajo "Hooks" y para el manejo de datos "Firestore"</p>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
