@@ -1,0 +1,89 @@
+{
+    "plans": [
+        {
+            "name": "HUMITA",
+            "sku": "ABC123",
+            "price": "$10.000",
+            "description": "DESAYUNO.",
+            "image": "https://www.gourmet.cl/wp-content/uploads/2012/01/Humitas-e1325692985982.jpg"
+            
+        },
+        {
+            "name": "HORNADO",
+            "sku": "DEF456",
+            "price": "$15.000",
+            "description": "ALMUERZO.",
+            "image": "https://comidaecuatoriana.online/wp-content/uploads/2022/10/hornado.webp"
+        },
+        {
+            "name": "MENESTRA",
+            "sku": "GHI789",
+            "price": "$14.000",
+            "description": "CENA.",
+            "image": "https://img-global.cpcdn.com/recipes/966e71c35a52b94b/680x482cq70/arroz-con-menestra-y-carne-asada-foto-principal.jpg"
+        },
+        {
+            "name": "BOLON",
+            "sku": "GHI789",
+            "price": "$10.000",
+            "description": "DESAYUNO.",
+            "image": "https://astelus.com/wp-content/viajes/Receta-de-bolon-de-verde-galapagueno-1152x759.jpg"
+        },
+        {
+            "name": "GUATITA",
+            "sku": "GHI100",
+            "price": "$13.000",
+            "description": "ALMUERZO.",
+            "image": "https://radiosucre.com.ec/wp-content/uploads/2023/06/guatita-ecuatoriana.jpg"
+        },
+        {
+            "name": "BANDERA",
+            "sku": "GHI200",
+            "price": "$18.000",
+            "description": "CENA.",
+            "image": "https://pbs.twimg.com/media/Ey652ZsXIAIvZG8.jpg"
+        },
+        {
+            "name": "CORVICHE",
+            "sku": "GHI300",
+            "price": "$10.000",
+            "description": "DESAYUNO.",
+            "image": "https://lacomidaecuatoriana.com/wp-content/uploads/2017/09/receta-del-corviche-ecuatoriano.jpg"
+        },
+        {
+            "name": "ENCEBOLLADO",
+            "sku": "GHI400",
+            "price": "$16.000",
+            "description": "ALMUERZO.",
+            "image": "https://imag.bonviveur.com/portada-del-encebollado-de-pescado-ecuatoriano.jpg"
+        },
+        {
+            "name": "CEVICHE",
+            "sku": "GHI500",
+            "price": "$15.000",
+            "description": "DESAYUNO.",
+            "image": "https://www.comedera.com/wp-content/uploads/2022/08/Ceviche-de-camarones-ecuatoriano-shutterstock_1997166494.jpg"
+        },
+        {
+            "name": "SECO DE POLLO",
+            "sku": "GHI600",
+            "price": "$15.000",
+            "description": "ALMUERZO.",
+            "image": "https://www.felipecampana.com/wp-content/uploads/2020/03/IMG_6202.jpg"
+        },
+        {
+            "name": "LLAPINGACHO",
+            "sku": "GHI700",
+            "price": "$18.000",
+            "description": "CENA.",
+            "image": "https://pbs.twimg.com/media/CaeAGBQXIAAqtCQ?format=jpg&name=4096x4096"
+        },
+        {
+            "name": "POLLO A LA BRAZA",
+            "sku": "GHI800",
+            "price": "$17.000",
+            "description": "CENA.",
+            "image": "https://e.rpp-noticias.io/xlarge/2020/07/17/294729_971943.jpg"
+        }
+    ]
+}

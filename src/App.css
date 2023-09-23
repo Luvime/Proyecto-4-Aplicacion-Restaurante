@@ -1,0 +1,22 @@
+.App {
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(18rem, 1fr)
+    );
+    gap: 32px;
+    margin: 15px;
+}
+
+.bannerplatos {
+    display: flex;
+    justify-content: center;
+}
+
+.bannerplatos1 {
+    width: 1400px;
+    height: 500px;
+    border-radius:5px;
+    display: flex;
+    object-fit: cover;
+}
