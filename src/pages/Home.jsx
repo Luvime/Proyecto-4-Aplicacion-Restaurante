@@ -40,8 +40,8 @@ export const Home = () => {
         </div>
 
         <div className='container'>
-          <h1>Mercados que atendemos</h1>
-          <p>Siempre abiertos a nuevos mercados</p>
+          <h1>NUESTRAS PREPARACIONES</h1>
+          <h5>"Siempre en la mira, la excelencia"</h5>
         </div>
 
         <div className='container1'>
@@ -55,10 +55,11 @@ export const Home = () => {
             <img className='home' src={home}></img>
           </div>
           <div className='hijo2'>
-            <h1>FILOSOFIA KROSS</h1>
-            <h2>"LA CALIDAD ESTÁ POR SOBRE LA CANTIDAD"</h2>
-            <p>Pensamos como artesanos. Usamos 100% cebada malteada
-              ; sin preservantes; carbonatamos nuestras cervezas naturalmente y no apuramos la maduración. También incluimos tecnología de punta en nuestros procesos con el único objetivo de crear cervezas consistentes en calidad para que sean disfrutadas por nuestros fans y clientes</p>
+            <h1>NUESTRA MISIÓN</h1>
+            <h2>"SABORES NATURALES Y EXCELENTE ATENCION"</h2>
+            <p>Pensamos como guayaquileños. Usamos ingredientes 100% naturales de nuestras raices, para cocinar las mejores y más sabrosas preparaciones,
+              sin perder el sabor único y tradicional de nuestra tierra. Mantenemos además una cultura destacada de excelente trato a nuestra clientela,
+              para que puedan sentir en primera persona, la calidez de nuestra gente. Garantizamos una experiencia satisfactoria.</p>
           </div>
         </div>
       </div>
@@ -73,25 +74,25 @@ export const Home = () => {
       <div className='container3'>
         <input
           type='string'
-          placeholder='Name'
+          placeholder='Nombre'
           value={name}
           onChange={(event) => setName(event.target.value)}
         />
         <input
           type='string'
-          placeholder='Phone'
+          placeholder='Telefono'
           value={phone}
           onChange={(event) => setPhone(event.target.value)}
         />
         <input
           type='string'
-          placeholder='Date'
+          placeholder='Fecha'
           value={date}
           onChange={(event) => setDate(event.target.value)}
         />
         <input
           type='string'
-          placeholder='Hour'
+          placeholder='Hora'
           value={hour}
           onChange={(event) => setHour(event.target.value)}
         />

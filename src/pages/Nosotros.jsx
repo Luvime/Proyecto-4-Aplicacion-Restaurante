@@ -15,11 +15,13 @@ export const Nosotros = () => {
           <img className='guayaquil' src={guayaquil}></img>
         </div>
         <div className='hijo2'>
-          <h1>NUESTRA MISIÓN</h1>
-          <h2>"SABORES NATURALES Y EXCELENTE ATENCION"</h2>
-          <p>Pensamos como guayaquileños. Usamos ingredientes 100% naturales de nuestras raices, para cocinar las mejores y más sabrosas preparaciones, 
-          sin perder el sabor único y tradicional de nuestra tierra. Mantenemos además una cultura destacada de excelente trato a nuestra clientela,
-          para que puedan sentir en primera persona, la calidez de nuestra gente. Garantizamos una experiencia satisfactoria.</p>
+          <h1>NUESTRA HISTORIA</h1>
+          <h2>"GRASTRONOMIA UNIDA, UN ENFOQUE EN CRECIMIENTO"</h2>
+          <p>Somos una empresa familiar, nacida en Guayaquil en el año 2000, fundada por el patriarca familiar
+            Alfonso Villegas. En el 2012 emigramos a Chile en busca de nuevos desafíos, preservando las enseñanzas
+            de nuestros antecesores en cuanto a la gastronomía ecuatoriana, desarrollando y adaptando nuestra cocina 
+            desde entonces. Hoy, nuestra visión es unir el sabor de nuestros ancestros, y el sabor del país que nos abrio los brazos, Chile.  
+          </p>
         </div>
       </div>
     </>
