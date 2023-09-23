@@ -10,31 +10,37 @@ export const Footer = () => {
                 <div class="row p-5 text-dark">
                     <div class="col xs-12 col-md-6 col-lg-3">
                         <img className='logotipo' src={gorro} width={250}></img>
-                        <span>ConcePack</span>
-                        <p>Somos una empresa al servicio para la region del Bio Bio y todo Chile.</p>
+                        <h6>PERLA DEL PACIFICO</h6>
+                        <p>Se carateriza por su autenticos platos tradicionales de la region de la costa y sierra del pais Ecuador.</p>
                     </div>
                     <div class="col xs-12 col-md-6 col-lg-3">
-                        <p class="h2">Oferta de Valor</p>
+                        <p class="h2">Perla del Pacifio</p>
                         <div class="mb-2">
-                            <a class="text-dark" href="#">Servicio y Asesoramiento</a>
+                            <a class="text-dark" href="#">Confidencialidad</a>
                         </div>
                         <div class="mb-2">
-                            <a class="text-dark" href="#">Posicion Estrategica</a>
+                            <a class="text-dark" href="#">Mejores Ingredientes</a>
                         </div>
                         <div class="mb-2">
-                            <a class="text-dark" href="#">Tecnologia e Innovacion</a>
+                            <a class="text-dark" href="#">Atencion al Publico en General</a>
                         </div>
                         <div class="mb-2">
-                            <a class="text-dark" href="#">Empleabilidad</a>
+                            <a class="text-dark" href="#">Personal Capacitado</a>
                         </div>
                     </div>
                     <div class="col xs-12 col-md-6 col-lg-3">
-                        <p class="h3">Area sitio web</p>
+                        <p class="h3">Servicio</p>
                         <div class="mb-2">
-                            <a class="text-dark" href="#">Productos</a>
+                            <a class="text-dark" href="#">Forma de Pago</a>
                         </div>
                         <div class="mb-2">
-                            <a class="text-dark" href="#">Mercado que Atendemos</a>
+                            <a class="text-dark" href="#">Compra Segura</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="text-dark" href="#">Politicas de Despacho</a>
+                        </div>
+                        <div class="mb-2">
+                            <a class="text-dark" href="#">Mis Pedidos</a>
                         </div>
                     </div>
                     <div class="col xs-12 col-md-6 col-lg-3">
