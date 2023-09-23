@@ -63,52 +63,55 @@ export const Home = () => {
         </div>
       </div>
 
-      <div>
-        <h1>¡RESERVA CON NOSOTROS!</h1>
-        <h2>Te contactaremos enseguida</h2>
+      <div className='container2'>
+        <div className='hijo1'>
+          <h1>¡RESERVA CON NOSOTROS!</h1>
+          <h2>Te contactaremos enseguida</h2>
+        </div>
       </div>
 
-      <input
-        type='string'
-        placeholder='Name'
-        value={name}
-        onChange={(event) => setName(event.target.value)}
-      />
-      <input
-        type='string'
-        placeholder='Phone'
-        value={phone}
-        onChange={(event) => setPhone(event.target.value)}
-      />
-      <input
-        type='string'
-        placeholder='Date'
-        value={date}
-        onChange={(event) => setDate(event.target.value)}
-      />
-      <input
-        type='string'
-        placeholder='Hour'
-        value={hour}
-        onChange={(event) => setHour(event.target.value)}
-      />
+      <div className='container3'>
+        <input
+          type='string'
+          placeholder='Name'
+          value={name}
+          onChange={(event) => setName(event.target.value)}
+        />
+        <input
+          type='string'
+          placeholder='Phone'
+          value={phone}
+          onChange={(event) => setPhone(event.target.value)}
+        />
+        <input
+          type='string'
+          placeholder='Date'
+          value={date}
+          onChange={(event) => setDate(event.target.value)}
+        />
+        <input
+          type='string'
+          placeholder='Hour'
+          value={hour}
+          onChange={(event) => setHour(event.target.value)}
+        />
 
+        <Button onClick={createReserva} variant='success'>Agregar</Button>
+        <Table striped bordered hover>
+          <thead>
+            <tr></tr>
+          </thead>
+          <tbody>
+            {
+              reservas.map(reserva => (
+                <tr key={reserva.id}></tr>
+              ))
+            }
 
+          </tbody>
+        </Table>
 
-      <Button onClick={createReserva} variant='success'>Agregar</Button>
-      <Table striped bordered hover>
-        <thead>
-          <tr></tr>
-        </thead>
-        <tbody>
-          {
-            reservas.map(reserva => (
-              <tr key={reserva.id}></tr>
-            ))
-          }
-
-        </tbody>
-      </Table>
+      </div>
 
     </>
   )

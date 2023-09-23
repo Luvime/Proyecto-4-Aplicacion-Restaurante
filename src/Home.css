@@ -61,3 +61,20 @@
     justify-content: center;
     margin: 50px;
 }
+
+.container2 {
+    display: grid;
+    place-items: center;
+}
+
+.hijo1 {
+    display: grid;
+    place-items: center;
+}
+
+.container3 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 50px;
+}
